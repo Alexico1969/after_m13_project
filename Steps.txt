@@ -1,0 +1,64 @@
+Kathir - After M13 project
+
+Step 1 : Create folder 'After_M13_project'
+Step 2 : Create files: 'index.html', 'style.css', 'scripts.js'
+Step 3 : Setup basic HTML in index.html (html/head/title 'My toolkit'/body)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+Step 4 : Connect 'style.css' and 'scripts.js' to 'index.html'
+Step 5 : Write some text css in 'style.css' to test link
+Step 6 : Write a test-script in 'scripts.js' to test link
+Step 7 : Remove test-code
+Step 8 : Create folder 'img', upload nice background pic
+Step 9a : Add background picture of choice to the body
+Step 9b : Set the text-align to 'center'
+Step 10 : Add 5 divs
+Step 11 : Give all 5 divs the class named 'mydiv'
+Step 12 : Add the following CSS to the 'mydiv'-class:
+
+	  background-color: rgba(240,240,240,0.5);
+	  margin: 10px;
+
+Step 13 : Give all 5 divs an extra class with their name (f.i. : title)
+Step 14 : Make the divs align this way:
+
++-------------------------------------------------+
+|                                                 |
+|                      .title                     |
+|                                                 |
++-------------------------------------------------+
+|		|		|		  |
+|		|		|		  |
+|   .widget1	|   .widget2	|     .widget3	  |
+|		|		|		  |
+|		|		|		  |
++-------------------------------------------------+
+|                                                 |
+|                      .footer			  |
+|                                                 |
++-------------------------------------------------+
+
+Pro-tip : 
+
+	- add the property 'float' with value 'left' to .widget1
+	- add the property 'float' with value 'right' to .widget3
+
+Step 15 : Add a font of your choice (google fonts) to the body of 'index.html)
+Step 16a : Make the text for the .title div 'My Toolkit'
+Step 16b : Make the text for the .footer div '(c)2021'
+Step 17 : Make the font-size for the .title div 100px 
+Step 18 : Make the font-size for the .footer div 8 px
+Step 19 : Make the footer stick to the bottom of the page, with no margin, 100% width.
+
+This is what the website should look like right now : https://i.imgur.com/A3wRU87.jpg
