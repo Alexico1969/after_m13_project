@@ -6,7 +6,7 @@ body{
 
 .mydiv{
     background-color: rgba(240,240,240,0.5);
-	margin: 1%;
+	margin: 10px;
 }
 
 .title{
@@ -20,11 +20,6 @@ body{
 
 .widget1{
     float: left;
-}
-
-.widget2{
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .widget3{
