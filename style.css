@@ -49,7 +49,7 @@ button{
     margin: 0px;
 }
 
-#celcius, #fahrenheit_output, #calc_output{
+#celsius, #fahrenheit_output, #calc_output{
     font-size: 150%;
     border: solid black 3px;
     border-radius: 3px;
