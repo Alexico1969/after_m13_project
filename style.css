@@ -4,6 +4,20 @@ body{
     font-family: 'Otomanopee One', sans-serif;
 }
 
+input{
+    font-size: 150%;
+    border: solid black 3px;
+    border-radius: 3px;
+}
+
+button{
+    font-size: 150%;
+    border: solid gray 3px;
+    border-radius: 5px;
+    color: white;
+    background-color: black; 
+}
+
 .mydiv{
     background-color: rgba(240,240,240,0.5);
 	margin: 10px;
@@ -33,4 +47,13 @@ body{
     width: 100%;
     text-align: center;
     margin: 0px;
+}
+
+#celcius, #fahrenheit_output{
+    font-size: 150%;
+    border: solid black 3px;
+    border-radius: 3px;
+    width: 60%;
+    display: inline-block;
+    margin-bottom: 12px;
 }

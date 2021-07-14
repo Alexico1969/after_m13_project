@@ -5,15 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My toolkit</title>
     <link rel='stylesheet' href='style.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src='scripts.js'></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <div class="mydiv title">My Toolkit</div>
-    <div class="mydiv widget1">widget1</div>
-    <div class="mydiv widget2">widget2</div>
+    <div class="mydiv widget1">
+        <h2>Fahrenheit to Celcius</h2>
+        <p><input id="fahrenheit" placeholder="Enter Fahrenheit"></input></p>
+        <p><button id="convert">Convert</button></p>
+        <div id="celcius"></div>
+    </div>
+    <div class="mydiv widget2">
+        <h2>Celcius to Fahrenheit</h2>
+        <p><input id="celcius_input" placeholder="Enter Celcius"></input></p>
+        <p><button id="convert2">Convert</button></p>
+        <div id="fahrenheit_output"></div>
+    </div>
     <div class="mydiv widget3">widget3</div>
     <div class="mydiv footer">(c) 2021</div>    
 </body>
