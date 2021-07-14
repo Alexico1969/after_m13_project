@@ -27,16 +27,16 @@ button{
     font-size: 100px;
 }
 
-.widget1, .widget2, .widget3{
+.widget1, .widget2, .widget3, .widget4, .widget5, .widget6{
     display: inline-block;
     width: 30%;
 }
 
-.widget1{
+.widget1, .widget4{
     float: left;
 }
 
-.widget3{
+.widget3, .widget6{
     float: right;
 }
 
@@ -49,7 +49,7 @@ button{
     margin: 0px;
 }
 
-#celcius, #fahrenheit_output{
+#celcius, #fahrenheit_output, #calc_output{
     font-size: 150%;
     border: solid black 3px;
     border-radius: 3px;

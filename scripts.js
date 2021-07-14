@@ -10,10 +10,17 @@ function convertC2F(){
     $("#fahrenheit_output").html(output.toFixed(1));
 }
 
+function calculate(){
+    var input = $('#calc_input').val();
+    var output =eval(input);
+    console.log("output", output);
+    $("#calc_output").html(output);
+}
 
 $(document).ready(function () {
     $("#convert").click(convertF2C);
     $("#convert2").click(convertC2F);
+    $("#calculate").click(calculate);
 });
 
 
