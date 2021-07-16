@@ -49,6 +49,59 @@ button{
     margin: 0px;
 }
 
+.calcBtn{
+    height: 40px;
+    width: 40px;
+}
+
+.digit{
+    background-color: yellow;
+    color: black;
+}
+
+.operator{
+    background-color: lightgreen;
+    color: black;
+    margin-left: 10px;
+}
+
+.equal{
+    background-color: lightcoral;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.display{
+    height: 40px;
+    width: 80%;
+    font-size: 150%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: darkgreen solid 5px;
+    color: lightgreen;
+    background-color: green;
+
+}
+
+.outcome{
+    height: 40px;
+    width: 80%;
+    font-size: 150%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: darkgreen solid 5px;
+    color: lightgreen;
+    background-color: green;
+}
+
+
+
+
 #celsius, #fahrenheit_output, #calc_output{
     font-size: 150%;
     border: solid black 3px;

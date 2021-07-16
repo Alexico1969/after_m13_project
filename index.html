@@ -14,41 +14,71 @@
 </head>
 <body>
     <div class="mydiv title">My Toolkit</div>
-    <div class="mydiv widget1">
-        <h2>Fahrenheit to celsius</h2>
-        <p><input id="fahrenheit" placeholder="Enter Fahrenheit"></input></p>
-        <p><button id="convert">Convert</button></p>
-        <div id="celsius"></div>
+    <div>
+        <div class="mydiv widget1">
+            <h2>Fahrenheit to Celsius</h2>
+            <p><input id="fahrenheit" placeholder="Enter Fahrenheit"></input></p>
+            <p><button id="convert">Convert</button></p>
+            <div id="celsius"></div>
+        </div>
+        <div class="mydiv widget2">
+            <h2>Celsius to Fahrenheit</h2>
+            <p><input id="celsius_input" placeholder="Enter celsius"></input></p>
+            <p><button id="convert2">Convert</button></p>
+            <div id="fahrenheit_output"></div>
+        </div>
+        <div class="mydiv widget3">
+            <h2>Calculator</h2>
+            <p><input id="calc_input" placeholder="Calculation"></input></p>
+            <p><button id="calculate">Calculate</button></p>
+            <div id="calc_output"></div>
+        </div>
     </div>
-    <div class="mydiv widget2">
-        <h2>celsius to Fahrenheit</h2>
-        <p><input id="celsius_input" placeholder="Enter celsius"></input></p>
-        <p><button id="convert2">Convert</button></p>
-        <div id="fahrenheit_output"></div>
-    </div>
-    <div class="mydiv widget3">
-        <h2>Calculator</h2>
-        <p><input id="calc_input" placeholder="Calculation"></input></p>
-        <p><button id="calculate">Calculate</button></p>
-        <div id="calc_output"></div>
-    </div>
-    <div class="mydiv widget4">
-        <h2>Widget 4</h2>
-        <p><input id="" placeholder=""></input></p>
-        <p><button id="">Action</button></p>
-        <div id=""></div>
-    </div>
-    <div class="mydiv widget5">
-        <h2>Widget 5</h2>
-        <p><input id="" placeholder=""></input></p>
-        <p><button id="">Action</button></p>
-        <div id=""></div>
-    </div>
-    <div class="mydiv widget6">
-        <h2>Widget 6</h2>
-        <p><input id="" placeholder=""></input></p>
-        <p><button id="">Action</button></p>
-        <div id=""></div>
+    <br>
+    <div>
+        <div class="mydiv widget4">
+            <h2>Real Calculator</h2>
+            <div class='display'>
+                display
+            </div>
+            <div>
+                <button class="calcBtn digit" type="button">1</button>
+                <button class="calcBtn digit" type="button">2</button>
+                <button class="calcBtn digit" type="button">3</button>
+                <button class="calcBtn operator" type="button">+</button>
+            </div>
+            <div>
+                <button class="calcBtn digit" type="button">4</button>
+                <button class="calcBtn digit" type="button">5</button>
+                <button class="calcBtn digit" type="button">6</button>
+                <button class="calcBtn operator" type="button">-</button>
+            </div>
+            <div>
+                <button class="calcBtn digit" type="button">7</button>
+                <button class="calcBtn digit" type="button">8</button>
+                <button class="calcBtn digit" type="button">9</button>
+                <button class="calcBtn operator" type="button">*</button>
+            </div>
+            <div>
+                <button class="calcBtn equal" type="button">=</button>
+                <button class="calcBtn digit" type="button">0</button>
+                <button class="calcBtn digit" type="button">.</button>
+                <button class="calcBtn operator" type="button">/</button>
+            </div>
+
+        </div>
+        <div class="mydiv widget5">
+            <h2>Widget 5</h2>
+            <p><input id="" placeholder=""></input></p>
+            <p><button id="">Action</button></p>
+            <div id=""></div>
+        </div>
+        <div class="mydiv widget6">
+            <h2>Widget 6</h2>
+            <p><input id="" placeholder=""></input></p>
+            <p><button id="">Action</button></p>
+            <div id=""></div>
+        </div>
     </div>
     <div class="mydiv footer">(c) 2021</div>    
 </body>
